@@ -5,7 +5,7 @@ body{
 }
 
 a:link, a:visited{
-  color: #ffe05d;
+  color: #fff;
   text-decoration: none;
 }
 
@@ -17,7 +17,7 @@ a:hover{
 
 .heading{
   text-align: center;
-  border: 1px solid;
+  border: 3px solid;
   padding: 15px;
   border-radius: 10px;
 }
@@ -38,6 +38,11 @@ nav{
   padding: 10px;
 }
 
+footer{
+  background-color: indianred;
+  color: #fff;
+  text-align: center;
+}
 .menu{
   width: 300px;
   background-color: #835858;
@@ -49,4 +54,4 @@ nav{
 }
 .gambar-resep{
   width: 350px;
-}
+  padding: 5px;
