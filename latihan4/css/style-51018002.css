@@ -1,0 +1,57 @@
+body{
+  background-image: url('../img/bgp.png');
+  color: #14274e;
+  font-family: sans-serif;
+}
+
+a:link, a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+a:hover{
+  color: #008891;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.heading{
+  text-align: center;
+  border: 3px solid;
+  padding: 15px;
+  border-radius: 10px;
+}
+
+
+.link{
+  list-style-type: none;
+}
+
+.linkback{
+  text-align: right;
+  background-color: #835858;
+  padding: 10px;
+}
+nav{
+  background-color: #835858;
+  color: #fff;
+  padding: 10px;
+}
+
+footer{
+  background-color: indianred;
+  color: #fff;
+  text-align: center;
+}
+.menu{
+  width: 300px;
+  background-color: #835858;
+  margin: 5px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 5px;
+  text-align: center;
+}
+.gambar-resep{
+  width: 350px;
+  padding: 5px;
