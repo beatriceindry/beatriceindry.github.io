@@ -1,0 +1,44 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.bluechef{
+  background-color:indianred;
+}
+.bluechef-text{
+  color: indianred;
+}
+.collection a.collection-item {
+    color: indianred;
+}
+.collection a.collection-item:not(.active):hover {
+   background-color: #b57b7ea6;
+}
+img{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.text {
+  text-align: center;
+}
+h2{
+  text-align: center;
+  color: indianred;
+}
+.profil{
+  height: 400px;
+}
+.data{
+  text-align: center; 
+}
