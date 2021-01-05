@@ -1,3 +1,18 @@
+document.addEventListener('DOMContentLoaded', function() {
+       var dateElems = document.querySelectorAll('.datepicker');
+       M.Datepicker.init(dateElems, {format:'yyyy-mm-dd'});
+
+       var elems = document.querySelectorAll('select');
+       var instances = M.FormSelect.init(elems);
+});
+
+(function($) {
+  $(document).ready(function() {
+    $('input#input_text, textarea#deskripsi').characterCounter();
+  });
+})(jQuery);
+
+
 (function($){
   $(function(){
 
@@ -5,14 +20,3 @@
 
   }); // end of document ready
 })(jQuery); // end of jQuery name space
-document.addEventListener('DOMContentLoaded', function() {
-    var elems = document.querySelectorAll('.collapsible');
-    var instances = M.Collapsible.init(elems, options);
-  });
-
-  // Or with jQuery
-
-  $(document).ready(function(){
-    $('.collapsible').collapsible();
-  });
-       
