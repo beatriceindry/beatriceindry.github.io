@@ -1,4 +1,4 @@
-const endpoint_url = 'http://51018002.p-web.local/api';
+const endpoint_url = 'https://51018002.p-web.click/backend/api';
 
 document.addEventListener("DOMContentLoaded", function(){
   getPenjahit();
