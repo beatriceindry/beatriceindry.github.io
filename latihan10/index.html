@@ -17,11 +17,11 @@
         <a href="/latihan9" class="brand-logo white-text">PWEB Hotel</a>
 
         <ul id="nav-mobile" class="sidenav sidenav-close">
-          <li><a href="#">Room Rate</a></li>
-          <li><a href="#">Room List</a></li>
+          <li><a href="#" onclick="getRoomRate();">Room Rate</a></li>
+          <li><a href="#" onclick="getRoomList();">Room List</a></li>
           <hr>
-          <li><a href="#">Guest List</a></li>
-          <li><a href="#">Member List</a></li>
+          <li><a href="#" onclick="getGuestList();">Guest List</a></li>
+          <li><a href="#" onclick="getMemberList();">Member List</a></li>
         </ul>
         <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i
           class="material-icons white-text">menu</i></a>
@@ -33,15 +33,15 @@
         <div class="col m4 s12 hide-on-med-and-down">
           <img src="img/hotel_1080.jpg" alt="PWEB Hotel" class="responsive-img">
           <br>
-          <button class="btn block red darken-4">Room Rate</button>
-          <button class="btn block red darken-4">Room List</button>
+          <button class="btn block red darken-4" onclick="getRoomRate();">Room Rate</button>
+          <button class="btn block red darken-4" onclick="getRoomList();">Room List</button>
           <hr>
-          <button class="btn block red darken-4">Guest List</button>
-          <button class="btn block red darken-4">Member List</button>
+          <button class="btn block red darken-4" onclick="getGuestList();">Guest List</button>
+          <button class="btn block red darken-4" onclick="getMemberList();">Member List</button>
         </div>
 
         <div class="col m8 s12">
-          <h3 id='tb title'>Room Rate</h3>
+          <h3 id='tb_title'>Room Rate</h3>
 
           <div id="dttable">
           </div>
