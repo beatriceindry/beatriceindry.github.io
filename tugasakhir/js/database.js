@@ -4,6 +4,7 @@ document.addEventListener("DOMContentLoaded", function(){
   getPenjahit();
   getPenulis();
   getPelanggan();
+  getKain();
 });
 
 function getPenjahit(nama) {
@@ -648,7 +649,7 @@ function getKain() {
               </div>
             </a>
             <div class="card-content center">
-            <a href=""detaildress.html?id_model=${model_dress.id_model}" class="data">${model_dress.nama}</a>
+            <a href="detailkain.html?id_kain=${kain.id_kain}" class="data">${kain.nama}</a>
             </div>
           </div>
         </div>
